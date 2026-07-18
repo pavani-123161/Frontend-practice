@@ -1,0 +1,10 @@
+h1{
+    font-family: Verdana, arial;
+}
+/* can use google fonts for different fonts */
+p{
+    font-family: "lucida console", "courier new";
+    font-size: 1em;
+    font-weight: bold;
+    font-style: oblique;
+}

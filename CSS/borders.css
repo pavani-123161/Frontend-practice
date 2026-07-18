@@ -1,0 +1,12 @@
+h1{
+    border-style: solid;
+    border-width: 5px;
+    border-color: hsl(273, 100%, 50%);
+    border-radius: 20px;
+}
+p{
+    border-bottom: 5px solid rgb(255, 7, 7);
+    border-top: 5px groove rgb(255, 255, 35);
+    border-left: 3px dotted rgb(255, 181, 44);
+    border-right: 3px dashed rgb(153, 255, 0);
+}

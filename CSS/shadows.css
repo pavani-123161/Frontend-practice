@@ -1,0 +1,10 @@
+h1{
+    /* horizontal - vertical - blur - colour */
+    text-shadow: 3px 3px 5px rgb(255, 32, 32), -3px -3px 5px rgb(24, 166, 255);
+}
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    box-shadow: 3px 3px 5px rgb(255, 83, 140);
+}

@@ -1,0 +1,49 @@
+#float{
+    border: 5px solid;
+    display: flow-root; /*flows within the body */
+    margin-bottom: 35px;
+}
+
+#pokeball{
+    height: 150px;
+    float:left; /*wraps right side */
+    margin-right: 10px;
+}
+#pikachu{
+    height: 150px;
+    float: right; /*wraps left side */
+    margin-left: 10px;
+}
+
+
+#overflow{
+    border: 2px solid;
+    height: 75px;
+    /* overflow: hidden; the content outside doesn't appear */
+    /* overflow: visible; default  */
+    /* overflow:clip;similar to hidden we can use 
+    overflow-clip-margin: 10px; tells how long it overflow */
+    /* overflow:scroll; provides scroll of vertical and horizontal */
+    /* overflow: auto; similar to scroll but provides scroll only if needed */
+    overflow: scroll;
+}
+
+#div{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    /* display: inline; can change block element to inline */
+    display: block;
+}
+#span{
+    background-color: blueviolet;
+    /* height:100px;
+    width: 100px; cant give height and width to inline but we can change
+    to display block to give height and width */
+    /* display: none; doesn't show the element and doesn't take space
+     */
+     display: block;
+     height: 100px;
+     width: 100px;
+    visibility: hidden; /* same as display hidden but takes space */
+}

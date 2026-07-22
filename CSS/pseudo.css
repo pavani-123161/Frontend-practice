@@ -1,0 +1,59 @@
+a:link{
+    color: rgb(3, 179, 255);
+}
+a:hover{
+    color: aqua;
+    font-size: 1.1em;
+}
+a:active{
+    color: rgb(255, 7, 189);
+    font-size: 1.1em;
+}
+a:visited{
+    color: red;
+}
+
+.classes li:hover{
+    background-color: yellow;
+}
+.classes li:not(:hover){
+    background-color: aliceblue;
+}
+.classes li:nth-child(even){
+    background-color: rgb(14, 204, 33);
+}
+#greeting p{
+    background-color: rgb(183, 107, 255);
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{
+    display: inline;
+}
+
+.elements h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+.elements p::first-line{
+    background-color: yellowgreen;
+}
+.elements p::selection{
+    color: aliceblue;
+    background-color: black;
+}
+#fruit li::before{
+    content: "✨";
+}
+#apple::after{
+    content: "🍎";
+}
+#orange::after{
+    content: "🍊";
+}
+#banana::after{
+    content: "🍌";
+}
+#fruit li::marker{
+    content: "";
+}

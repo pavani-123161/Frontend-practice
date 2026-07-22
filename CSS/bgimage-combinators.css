@@ -1,0 +1,23 @@
+.bgimage{
+    background-image: url("bgimage.jpg");
+    background-repeat: no-repeat; /*if image is small also it doesn't repeat*/
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; /* takes up the entire page */
+    height: 50vh;
+}
+#container{
+    border: 2px solid;
+}
+#container p{
+    background-color: yellowgreen;
+}
+#container > p{
+    background-color: rgb(47, 149, 238);
+}
+#container ~ p{
+    background-color: palevioletred;
+}
+#container + p{
+    background-color: aquamarine;
+}

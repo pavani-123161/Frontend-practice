@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    /* flex-direction: row-reverse;row by default to reverse we will use row-reverse
+    column to arrange elements within a column and we can use column-reverse */
+    /* justify-content: flex-end; by default its flext start to attach to end we use flex end to center we use center 
+    we can create space betweeen using space-between and we have space-around, space-evenly */
+    border: 10px solid black;
+    height: 90vh;
+    /* align-items: flex-end; align-items = used for cross axis by default flex-start flext-end will 
+    place items at the bottom, center place them in middle */
+    /* flex-wrap: nowrap; if there are too many items they will be compressed
+          if we use wrap the the elements will wrap if there is no space
+          and we have wrap-reverse */
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{
+    background-color: rgb(255, 45, 45);
+    align-self: center;/* to align sinle element*/
+}
+#box2{
+    background-color: rgb(239, 224, 19);
+    order: 1; /* to change the order of element for beginning use neg values*/
+}
+#box3{
+    background-color: rgb(38, 247, 38);
+}
+#box4{
+    background-color: rgb(0, 183, 255);
+}

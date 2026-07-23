@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    transform: translateX(100px) rotateZ(45deg) scale(1.2);
+}
+#box1{
+    background-color: rgb(10, 237, 10);
+}
+#box2{
+    background-color: red;
+}
+#box3{
+    background-color: aqua;
+}
+
+/* 
+transform: translateX(50px);
+transform: translateY(50px);
+transform: translate(50px,50px);
+transform: rotateX(50px);
+transform: rotateY(50px);
+transform: rotateZ(50px);
+transform: scaleX(2);
+transform: scaleY(2);
+transform: scale(2,0.5);
+transform: skewX(45deg);
+transform: skewY(45deg);
+transform: skew(20deg,20deg); */

@@ -40,6 +40,8 @@ A simple and interactive Number Guessing Game built using HTML, CSS, and JavaScr
 2. Open `index.html` in your browser.
 3. Start guessing the number!
 
-## Author
+## Live Demo
 
-** Pavani **
+🚀 **Play the game here:**
+
+https://pavani-123161.github.io/Frontend-practice/Mini-Learning-Projects/number-guessing-game/
